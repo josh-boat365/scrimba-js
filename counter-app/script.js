@@ -1,0 +1,1 @@
+document.getElementById('number-count').innerHTML = 3
