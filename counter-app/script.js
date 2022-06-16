@@ -26,18 +26,19 @@ function increment() {
     count += 1
     people_count.innerHTML = count
 
-    // return people_count;
-
 }
 
 function decrement() {
     count -= 1
     people_count.innerHTML = count
 
-    // return people_count;
-
 }
 
 function save() {
-    counted_people.innerHTML = count
+    let saved_count = count + " -"
+    counted_people.innerHTML += saved_count
+}
+
+function reset() {
+    people_count.innerHTML = 0
 }
