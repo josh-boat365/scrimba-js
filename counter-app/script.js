@@ -35,10 +35,13 @@ function decrement() {
 }
 
 function save() {
-    let saved_count = count + " -"
+    let saved_count = count + " - "
     counted_people.innerHTML += saved_count
+    count = 0
 }
 
 function reset() {
     people_count.innerHTML = 0
+    counted_people.innerHTML = 0
+    count = 0
 }
